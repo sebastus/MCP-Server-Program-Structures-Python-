@@ -8,7 +8,7 @@ class TestSubtractTool(unittest.TestCase):
     
     def setUp(self):
         """Set up test fixtures before each test method."""
-        self.subtract_tool = SubtractTool()
+        self.subtract_tool = SubtractTool("subtract")
     
     def test_positive_numbers(self):
         """Test subtracting positive numbers."""

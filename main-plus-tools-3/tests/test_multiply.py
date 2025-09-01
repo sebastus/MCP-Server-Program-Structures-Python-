@@ -8,7 +8,7 @@ class TestMultiplyTool(unittest.TestCase):
     
     def setUp(self):
         """Set up test fixtures before each test method."""
-        self.multiply_tool = MultiplyTool()
+        self.multiply_tool = MultiplyTool("multiply")
     
     def test_positive_numbers(self):
         """Test multiplying positive numbers."""
