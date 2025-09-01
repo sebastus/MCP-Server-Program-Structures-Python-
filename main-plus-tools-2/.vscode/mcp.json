@@ -1,0 +1,8 @@
+{
+    "servers": {
+        "demo": {
+            "url": "http://localhost:8000/mcp",
+            "type": "http"
+        }
+    }    
+}

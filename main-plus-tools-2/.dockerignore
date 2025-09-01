@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.DS_Store
+.git/
+.gitignore
+Dockerfile
+README.md
+uv.lock
